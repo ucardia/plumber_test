@@ -8,19 +8,7 @@
 #
 
 library(plumber)
-library(RMariaDB)
-library(DBI)
-library(tidyverse)
-library(glue)
-library(lubridate)
-library(httr)
-library(ggplot2)
-library(cowplot)
-library(gridExtra)
-library(elementalist)
-library(ggtext)
-library(magick)
-library(ggwordcloud)
+
 
 #* @apiTitle Plumber Example API
 #* @apiDescription Plumber example description.
