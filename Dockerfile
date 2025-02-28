@@ -11,7 +11,9 @@ RUN apt-get install -y \
 
 
 # Install Packages
-RUN install2.r RMariaDB DBI tidyverse glue plumber lubridate httr
+RUN install2.r devtools plumber RMariaDB DBI tidyverse glue lubridate httr ggplot2 cowplot gridExtra ggtext magick ggwordcloud
+
+RUN R -e "devtools::install_github('teunbrand/elementalist')"
 
 
 # Copies  files in this directory to files in container
