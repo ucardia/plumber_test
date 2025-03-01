@@ -7,6 +7,7 @@ RUN apt-get install -y \
             libcurl4-openssl-dev \
             libsecret-1-dev \
             libsodium23 \
+            libmagick++-dev \
             && apt-get clean
 
 

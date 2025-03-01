@@ -19,7 +19,7 @@ library(cowplot)
 library(gridExtra)
 library(elementalist)
 library(ggtext)
-# library(magick)
+library(magick)
 library(ggwordcloud)
 
 #* @apiTitle Plumber Example API
